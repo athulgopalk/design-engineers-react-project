@@ -1,0 +1,239 @@
+.hero-wrapper{
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    z-index: 1;
+
+   
+
+}
+
+.hero-container{
+    justify-content: space-around;
+    align-items: flex-end;
+}
+/* left side */
+
+.hero-left{
+    gap: 3rem;
+
+}
+
+.hero-title{
+    position: relative;
+    z-index: 1;
+}
+
+.hero-tit{
+    transition: 0.5s ease-in-out;
+}
+
+.hero-tit:hover{
+    filter: brightness(1.4);
+}
+.hero-title>h1 {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 4.5rem;
+    color: #dcb000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+}
+
+.orange-circle {
+    height: 5rem;
+    width: 5rem;
+    background: radial-gradient(circle, rgba(255, 174, 0, 0.8), rgba(255, 204, 0, 0.8));
+    border-radius: 50%;
+    position: absolute;
+    right: -10%;
+    top: -15%;
+    z-index: -1;
+    animation: pulse 2s infinite alternate;
+    opacity: 50%;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.subscribe-bar {
+    background-color: #282c34;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 ;
+    box-sizing: border-box;
+
+}
+
+.subscribe-bar>input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    /* Adjusted padding for input */
+    font-size: 0.875rem;
+    /* Slightly smaller font size */
+    color: #ffffff;
+    background-color: transparent;
+    margin-right: 8px;
+    /* Adjusted spacing between input and button */
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.subscribe-bar>input:focus {
+    border-bottom: 2px solid #007bff;
+}
+
+.subscribe-bar>button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 0.75rem;
+    /* Adjusted padding for button */
+    font-size: 0.875rem;
+    /* Slightly smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subscribe-bar>button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.subscribe-bar>button:active {
+    transform: translateY(0);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .subscribe-bar {
+        padding: 0.5rem 0.75rem;
+        /* Further adjust padding */
+        max-width: 350px;
+        /* Reduced maximum width for medium screens */
+    }
+
+    .subscribe-bar>input {
+        font-size: 0.8rem;
+        /* Smaller font size */
+    }
+
+    .subscribe-bar>button {
+        padding: 0.5rem 0.5rem;
+        /* Adjusted padding */
+        font-size: 0.8rem;
+        /* Smaller font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .subscribe-bar {
+        padding: 0.5rem 0.5rem;
+        /* Further reduced padding */
+        max-width: 300px;
+        /* Further reduced maximum width */
+    }
+
+    .subscribe-bar>input {
+        font-size: 0.75rem;
+        /* Even smaller font size */
+    }
+
+    .subscribe-bar>button {
+        padding: 0.5rem 0.5rem;
+        /* Consistent padding */
+        font-size: 0.75rem;
+        /* Smaller font size */
+    }
+}
+
+.stats{
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child{
+    color: orange;
+   
+}
+
+
+
+/* rightside */
+
+.image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+}
+
+.image-container>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover>img {
+    transform: scale(1.05);
+}
+
+@media (max-width : 640px){
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image-container{
+        width: 95%;
+        height: 25rem;
+    }
+    .stats{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    .stat>:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .stat>:nth-child(2) {
+            font-size: 0.8rem;
+    }
+
+}
+
+
+.hero-des{
+    transition: 0.5s ease-in-out;
+}
+.hero-des:hover{
+   filter: brightness(1.4);
+}

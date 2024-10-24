@@ -1,0 +1,37 @@
+[
+  {
+    "position": "CEO, Founder",
+    "detail": "Leading the vision and innovation at Solid Home, Design and Engineers, ensuring every project reflects excellence and creativity.",
+    "image": "../../public/Ceo.jpg"
+  },
+  {
+    "position": "MEP & Operation",
+    "detail": "Expert in Mechanical, Electrical, and Plumbing, overseeing smooth operations and technical functionality of every project.",
+    "image": "../../public/mep.jpg"
+  },
+  {
+    "position": "Site Engineer",
+    "detail": "On the ground ensuring every design is brought to life with precision and technical expertise.",
+    "image": "../../public/siteenginner.jpg"
+  },
+  {
+    "position": "HR & Accounts",
+    "detail": "Managing the heart of the organization with a focus on people and financial management.",
+    "image": "../../public/hr&accounts.jpg"
+  },
+  {
+    "position": "Technical Designer",
+    "detail": "Crafting detailed designs that blend creativity with technical precision.",
+    "image": "../../public/techdesign.jpg"
+  },
+  {
+    "position": "3D Designer",
+    "detail": "Transforming ideas into stunning 3D visualizations to bring projects to life before they even begin.",
+    "image": "../../public/3ddesign.jpg"
+  },
+  {
+    "position": "Sales & Marketing",
+    "detail": "Connecting clients with their dream projects through strategic marketing and personalized service.",
+    "image": "../../public/sales&mark.jpg"
+  }
+]

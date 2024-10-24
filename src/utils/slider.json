@@ -1,0 +1,39 @@
+[
+ {
+    "name": "Modern Harmony",
+    "detail": "A striking multi-level villa that blends contemporary design with natural elements, offering both style and comfort.",
+    "image": "./r1.png"
+},
+
+  {
+    "name": "Rustic Retreat",
+    "detail": "A charming villa that combines traditional aesthetics with modern comfort, nestled in a serene environment.",
+    "image": "./r2.png"
+},
+
+  {
+    "name": "Modern Heritage",
+    "detail": "A sophisticated blend of contemporary design with traditional charm, ideal for a luxurious and peaceful living space.",
+    "image": "./r7.png"
+},
+
+ {
+    "name": "Modern Grace",
+    "detail": "A modern two-story villa with a blend of classic and contemporary architectural elements, designed for luxury living.",
+    "image": "./r4.png"
+},
+
+{
+  "name": "Modern Abode",
+  "detail": "A sleek and stylish two-story home with a modern facade and large windows, combining minimalism with functional design, perfect for urban living.",
+  "image": "./r5.png"
+},
+
+  {
+  "name": "Urban Oasis",
+  "category": "Modern Minimalist",
+  "detail": "A spacious, open-concept design featuring clean lines and a seamless indoor-outdoor flow, perfect for a contemporary lifestyle in a serene environment.",
+  "image": "./r6.png"
+}
+
+]

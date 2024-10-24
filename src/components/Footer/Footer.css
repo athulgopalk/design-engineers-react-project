@@ -1,0 +1,40 @@
+a:hover{
+    filter: brightness(1.5);
+}
+.f-wrapper{
+    background-color: #0e0e0e;
+}
+
+.f-container{
+    justify-content: space-between;
+
+}
+
+.f-left{
+    gap: 1rem;
+}
+
+.f-right{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.f-menu{
+    justify-content: space-between;
+   margin-top: 20px;
+}
+
+.f-menu span:hover{
+    filter: brightness(1.5);
+}
+
+@media (max-width :768px){
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center !important;
+        text-align: center;
+    }
+}

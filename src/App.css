@@ -1,0 +1,32 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+
+}
+
+.App>:nth-child(1){
+
+    background: var(--black);
+    position: relative;
+}
+
+.white-gradient {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background: rgba(255, 255, 255, 0.522);
+    filter: blur(100px);
+    border-radius: 100px;
+    animation: moveGradient 5s ease-in-out infinite alternate;
+}
+
+@keyframes moveGradient {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(20rem);
+        /* Adjust the distance as needed */
+    }
+}
